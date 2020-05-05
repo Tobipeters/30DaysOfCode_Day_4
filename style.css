@@ -9,7 +9,7 @@ body{
 }
 .quote-box{
     background: #fff;
-    margin: 100px 400px;
+    margin: 100px 350px;
     text-align: center;
     padding: 7px 7px 60px;
     line-height: 1.6;
@@ -33,7 +33,7 @@ body{
     text-align: center;
     
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
     .quote-box{
         margin: 70px 30px; 
     }
