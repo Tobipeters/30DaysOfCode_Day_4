@@ -1,0 +1,36 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.title{
+    text-align: center;
+    margin: 120px auto 0;
+    color: #313131;
+    font-weight: 600;
+}
+.quote-box{
+    background: #fff;
+    margin: 100px auto;
+    text-align: center;
+    padding: 7px 7px 60px;
+    line-height: 1.6;
+    word-spacing: 3px;
+    font-size: 20px;
+    font-family: 'Marck Script', cursive;
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.quote-box:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+#quote{
+    margin: 0;
+    padding: 50px 20px;
+    /* background-color: #9eb3cc; */
+    color: white;
+}
+@media screen and (max-width: 600px){
+    .quote-box{
+        margin: 70px 30px; 
+    }
+}
